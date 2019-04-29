@@ -1,0 +1,82 @@
+@charset "utf-8";
+aside {
+  width: 33%;
+  float: left;
+  padding: 10px;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+header {
+  background-image: url(HozBG.jpg);
+  color: white;
+}
+
+article {
+  background-color: ivory;
+  line-height: 1.5em;
+  margin-left: 35%;
+  padding: 1em;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+b {
+  font-size: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 10px 10px 6px white;
+}
+
+em {
+  background-color: black;
+  color: white;
+}
+
+strong {
+  font-weight: bolder;
+  color: black;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 10px 10px 0px 0px;
+  transform: rotate(0.1deg) skewX(0.1deg) scaleX(1);
+  display: block;
+}
+
+figure {
+  box-shadow: 6px 10px black;
+}
+
+figcaption {
+  color: rgb(54, 51, 51);
+  background-color: rgb(168, 156, 144);
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  clear: both;
+  margin-top: 2em;
+  font-size: 1em;
+  background-color: gray;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+}
+
